@@ -1,0 +1,12 @@
+[package]
+name = "jabcode"
+description = "Bindings for the JAB code reference implementation"
+repository = "https://github.com/IGI-111/jabcode-rs"
+license = "LGPL-2.1-only"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+cc = "1.0.73"
