@@ -18,7 +18,7 @@ impl WriteOptions {
     }
 }
 
-#[derive(Default)]
+#[derive(Default, Clone)]
 pub struct Symbol {
     pub ecc_level: EccLevel,
     pub version: Version,

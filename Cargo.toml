@@ -3,7 +3,7 @@ name = "jabcode"
 description = "Bindings for the JAB code reference implementation"
 repository = "https://github.com/IGI-111/jabcode-rs"
 license = "LGPL-2.1-only"
-version = "1.0.0"
+version = "1.1.0"
 edition = "2021"
 
 [dependencies]

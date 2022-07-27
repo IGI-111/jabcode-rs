@@ -3,10 +3,10 @@ use encode::EncodeHandle;
 
 mod encode;
 mod error;
-mod option;
+pub mod option;
 
 pub use error::WriteError;
-pub use option::WriteOptions;
+use option::*;
 
 pub fn write_jabcode(data: &[u8], options: &WriteOptions) -> Result<image::RgbaImage, WriteError> {
     let mut handle = EncodeHandle::new(options.color_number, options.symbol_number())?;
